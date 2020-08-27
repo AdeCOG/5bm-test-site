@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/robertazzopardi/5bm-test-site/issues"
   },
-  "homepage": "https://github.com/robertazzopardi/5bm-test-site#readme"
+  "homepage": "https://github.com/robertazzopardi/5bm-test-site#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
 }
