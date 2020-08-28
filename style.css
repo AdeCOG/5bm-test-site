@@ -1,15 +1,15 @@
 /* bootstrap long button CSS */
+
 .btn-lg {
-    position: absolute;
+    /* position: absolute; */
     background-color: black;
-    bottom: 0;
     outline-color: black;
     color: white;
 }
 
 .btn-lg:hover span {
-    display:none
-  }
+    display: none
+}
 
 .btn-lg:hover:before {
     content: 'Check Out';
@@ -17,11 +17,18 @@
 
 .btn-lg:hover {
     background-color: limegreen !important;
-    
 }
+
 /* bootstrap long button override CSS */
 
 /* Side Bar CSS for shopping cart */
+
+.columnC {
+    float: left;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
 
 .sidenav {
     height: 100%;
