@@ -1,3 +1,87 @@
+
+/* bootstrap long button CSS */
+
+.btn-lg {
+    /* position: absolute; */
+    background-color: black;
+    outline-color: black;
+    color: white;
+}
+
+.btn-lg:hover span {
+    display: none
+}
+
+.btn-lg:hover:before {
+    content: 'Check Out';
+}
+
+.btn-lg:hover {
+    background-color: limegreen !important;
+}
+
+/* bootstrap long button override CSS */
+
+/* Side Bar CSS for shopping cart */
+
+.columnC {
+    float: left;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+}
+
+#main {
+    transition: margin-right .5s;
+    padding: 0px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Side Bar CSS for shopping cart */
+
+/* Carousel same heights */
 .carousel-item {
     max-height: 500px
 }
+
