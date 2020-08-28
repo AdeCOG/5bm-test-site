@@ -5,8 +5,7 @@ const currency = "£";
 
 //#region SIDEBAR CODE
 
-// temp method to initilise basket items
-// remove with database support
+// temp method to initilise basket items remove with database support
 temp();
 function temp() {
     for (let index = 0; index < 10; index++) {
@@ -75,4 +74,5 @@ function closeSideBar() {
 
     document.body.style.backgroundColor = "white";
 }
+
 //#endregion
