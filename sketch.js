@@ -1,10 +1,14 @@
-var basketItems = [{ "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 }, { "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 },
-{ "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 }, { "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 },
-{ "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 }, { "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 },
-{ "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 }, { "name": "test1", "price": 1 }, { "name": "test2", "price": 2 }, { "name": "test3", "price": 3 }];
+var basketItems = [];
 
 const reducer = (accumulator, currentValue) => accumulator + currentValue.price;
 const currency = "£";
+
+temp();
+function temp() {
+    for (let index = 0; index < 10; index++) {
+        basketItems.push({ "name": "test1", "price": index });
+    }
+}
 
 function openSideBar() {
     var sideNav = document.getElementById("mySidenav");
