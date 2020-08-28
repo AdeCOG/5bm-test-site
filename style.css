@@ -1,3 +1,4 @@
+
 /* bootstrap long button CSS */
 
 .btn-lg {
@@ -78,3 +79,9 @@
 }
 
 /* Side Bar CSS for shopping cart */
+
+/* Carousel same heights */
+.carousel-item {
+    max-height: 500px
+}
+
