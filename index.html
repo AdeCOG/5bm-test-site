@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <title>5BU Shop</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,26 +20,27 @@
 
   <header>
     <!-- navigation bar ades nose is fat -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="productsPage.html">Products</a>
-          </li>
+    <div class="top">
+      <div> <a href="#"><img src="img\carousel\logophotoshop-Recovered.png" width= "210px" alt=""></a></div>
+      <div class="searchbar"><input type="text" value="Search" name="search" id = "searchtxt"></div>
+     
+      <nav>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login/ Sign up</a></li>
+          <li><a href="#">Help & Feedback</a></li>
         </ul>
-
-      </div>
-      <a class="floatRight" href="#" onclick="openSideBar()">Cart<i class="fa fa-fw fa-shopping-cart"></i> </a>
-    </nav>
+        </nav>
+     
+      <div class="trolly">
+        <img id = "image" src="img\carousel\checkout.png" alt="">
+        <div class="btn overlay overlayBottom">
+    <div class="overlay overlayBottom" onclick="openSideBar()"></div>
+    <div class="text" onclick="openSideBar()">Basket</div></div></div>
+    
+  </div>
+ 
   </header>
 
   <!-- shopping chart side navigation bar gbwrnernofer -->
@@ -50,7 +52,7 @@
     </button>
   </div>
 
-  <!-- MAIN CONTAINER-->
+  <!-- MAIN CONTAINERS-->
   <div class="main_container">
 
     <div class="container">
@@ -58,20 +60,20 @@
         <div class="col-sm-12">
           <div id="homepage_slider" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicator -->
+            <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#homepage_slider" data-slide-to="0" class="active"></li>
               <li data-target="#homepage_slider" data-slide-to="1"></li>
               <li data-target="#homepage_slider" data-slide-to="2"></li>
             </ol>
 
-            <!-- Wrapper for Slides -->
+            <!-- Wrapper for Slide images -->
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <a href="#" target="target_self">
                   <img src="img/carousel/fruits.jpg" alt="fruits" class="d-block w-100 ">
                   <div class="carousel-caption">
-                    <h1>Assorted Fruit</h1>
+                    <h1>Fruits and Veg</h1>
                   </div>
                 </a>
               </div>
@@ -79,7 +81,7 @@
                 <a href="#" target="_self">
                   <img src="img/carousel/till.jpg" alt="till" class="d-block w-100">
                   <div class="carousel-caption">
-                    <h1>Till</h1>
+                    <h1>Tills</h1>
                   </div>
                 </a>
               </div>
@@ -87,7 +89,7 @@
                 <a href="#" target="_self">
                   <img src="img/carousel/bread.jpg" alt="bread" class="d-block w-100">
                   <div class="carousel-caption">
-                    <h1>Bread</h1>
+                    <h1>Bakery</h1>
                   </div>
                 </a>
               </div>
