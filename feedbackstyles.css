@@ -1,8 +1,6 @@
 body {
-    margin:0;
-
+    margin: 0;
 }
-
 
 .body_container {
     color: #666;
@@ -22,7 +20,6 @@ body {
     background-color: rgba(68, 71, 90, 0.1);
     margin: 2rem;
     padding: 1rem
-    
 }
 
 .carousel-item {
@@ -57,10 +54,10 @@ body {
 }
 
 h3.intext_title {
-    color: rgb(100,50,0);
+    color: rgb(100, 50, 0);
     padding: 0;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
     margin: 0;
 }
 
-.row {
+/* .row { */
