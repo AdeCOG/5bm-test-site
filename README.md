@@ -1,4 +1,10 @@
 # 5bm-test-site
 Test Website
 
-## add updates here <remove this line later>
+# Features
+
+*Navigation bar
+*Shopping Cart
+*Home Page
+*Products Page
+*Contacts Page
