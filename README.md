@@ -3,8 +3,8 @@ Test Website
 
 # Features
 
-*Navigation bar
-*Shopping Cart
-*Home Page
-*Products Page
-*Contacts Page
+* Navigation bar
+* Shopping Cart
+* Home Page
+* Products Page
+* Contacts Page
