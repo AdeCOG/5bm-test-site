@@ -5,7 +5,7 @@ const currency = "£";
 
 //#region SIDEBAR CODE
 
-// temp method to initilise basket items remove with database support
+// temp method to initilise basket items remove with database supportS
 temp();
 function temp() {
     for (let index = 0; index < 10; index++) {
@@ -19,7 +19,7 @@ function openSideBar() {
     var sideNav = document.getElementById("mySidenav");
     sideNav.style.width = "250px";
 
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.body.style.backgroundColor = "#44475a";
 
     var cartItems = document.getElementById("items");
     cartItems.innerHTML = null;
@@ -73,7 +73,7 @@ function openSideBar() {
 function closeSideBar() {
     document.getElementById("mySidenav").style.width = "0";
 
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "#44475a";
 }
 
 //#endregion
