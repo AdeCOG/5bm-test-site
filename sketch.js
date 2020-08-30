@@ -14,6 +14,7 @@ function temp() {
 }
 
 // opens the side bar when the cart button is clicked 
+// ade is an aff
 function openSideBar() {
     var sideNav = document.getElementById("mySidenav");
     sideNav.style.width = "250px";
