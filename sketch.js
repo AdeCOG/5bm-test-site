@@ -1,3 +1,5 @@
+// javasctipt
+
 var basketItems = [];
 
 const reducer = (accumulator, currentValue) => accumulator + currentValue.price;
@@ -19,7 +21,8 @@ function openSideBar() {
     var sideNav = document.getElementById("mySidenav");
     sideNav.style.width = "250px";
 
-    document.body.style.backgroundColor = "#44475a";
+    // document.body.style.backgroundColor = "#44475a";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 
     var cartItems = document.getElementById("items");
     cartItems.innerHTML = null;
@@ -73,7 +76,8 @@ function openSideBar() {
 function closeSideBar() {
     document.getElementById("mySidenav").style.width = "0";
 
-    document.body.style.backgroundColor = "#44475a";
+    // document.body.style.backgroundColor = "#44475a";
+    document.body.style.backgroundColor = "rgba(0,0,0,0)";
 }
 
 //#endregion

@@ -14,46 +14,19 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="node_modules/jquery/src/jquery.js"></script>
 </head>
 
 <body>
+  <div id="navbar"></div>
+  <script>$("#navbar").load("navigationbar.html"); </script>
 
-  <header>
-    <!-- navigation bar ades nose is fat -->
-    <div class="top">
-      <div> <a href="#"><img src="img\carousel\logophotoshop-Recovered.png" width= "210px" alt=""></a></div>
-      <div class="searchbar"><input type="text" value="Search" name="search" id = "searchtxt"></div>
-     
-      <nav>
-        <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Login/ Sign up</a></li>
-          <li><a href="#">Help & Feedback</a></li>
-        </ul>
-        </nav>
-     
-      <div class="trolly">
-        <img id = "image" src="img\carousel\checkout.png" alt="">
-        <div class="btn overlay overlayBottom">
-    <div class="overlay overlayBottom" onclick="openSideBar()"></div>
-    <div class="text" onclick="openSideBar()">Basket</div></div></div>
-    
-  </div>
- 
-  </header>
-
-  <!-- shopping chart side navigation bar gbwrnernofer -->
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeSideBar()">&times;</a>
-    <div id="items"></div>
-    <button type="button" class="btn btn-lg btn-block">
-      <span id="totalItems"></span>
-    </button>
-  </div>
+  <div id="sidebar"></div>
+  <script>$("#sidebar").load("sidebar.html"); </script>
 
   <!-- MAIN CONTAINERS-->
-  <div class="main_container">
+  <div class="main_container ">
 
     <div class="container">
       <div class="row">
@@ -112,19 +85,7 @@
     </div>
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
   <script src="sketch.js"></script>
-
 </body>
 
 </html>
