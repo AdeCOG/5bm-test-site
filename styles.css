@@ -1,0 +1,66 @@
+body {
+    margin:0;
+
+}
+
+
+.body_container {
+    color: #666;
+    font-size: 1rem;
+    font-family: Sans-Serif, Arial, Helvetica;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.body_container h1 {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.div_faqs {
+    background-color: rgba(68, 71, 90, 0.1);
+    margin: 2rem;
+    padding: 1rem
+    
+}
+
+.carousel-item {
+    max-height: 500px
+}
+
+.div_feedback {
+    background-color: rgba(68, 71, 90, 0.1);
+    margin: 2rem;
+    padding: 1rem
+}
+
+.div_online_stores {
+    padding: 1rem
+}
+
+.div_online_services {
+    padding: 1rem
+}
+
+.div_more_info {
+    padding: 1rem;
+}
+
+.intro {
+    max-width: 45rem;
+    margin: 0;
+}
+
+.page_title {
+    color: blue
+}
+
+h3.intext_title {
+    color: rgb(100,50,0);
+    padding: 0;
+    padding-bottom:1rem;
+    margin: 0;
+}
+
+.row {
