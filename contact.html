@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="contact_styles.css" />
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
@@ -28,6 +30,28 @@
     <div class="main_container">
         <h1>contact page</h1>
     </div>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+                <div>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter Your First name..">
+                        </div>
+<div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter last name..">
+</div><div>
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="Email" placeholder="Enter Email Address">
+</div><div>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+</div><div>
+          <input type="submit" value="Submit">
+</div>
+        </form>
+      </div>  
 
     <script src="sketch.js"></script>
 </body>
